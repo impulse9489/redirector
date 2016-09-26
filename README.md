@@ -6,6 +6,7 @@ From scratch container available here:
 https://hub.docker.com/r/impulse9489/redirector/
 
 USAGE:
-docker run -p PORT:PORT redirect CONTAINERPORT WEBSITE_REDIRECT
+docker pull impulse9489/redirector
+docker run -p PORT:PORT impulse9489/redirector CONTAINERPORT WEBSITE_REDIRECT
 
-docker run -p 8082:8082 redirect 8082 https://www.tufts.edu
+docker run -p 8082:8082 impulse9489/redirector 8082 https://www.tufts.edu
